@@ -1,0 +1,213 @@
+body {
+    background-color: #faf4f2;
+    margin: 0;
+    padding: 0 ;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header{
+    /* hex # rrggbb 0 => f */
+    background-color: #f8e1db;
+    padding: 10px 40px ;
+    /* padding: 20px; */
+    /* padding: 10px 40px; */
+    /* padding-top: 20px;
+    padding: 10px 20px 30px 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.header .navbar {
+    margin-top:20px ;
+}
+
+.header .logo img {
+    width: 80px;
+}
+
+.header .logo img {
+    width: 80px;
+}
+
+.header .navbar a{
+    color: #000000;
+
+    /* text-decoration: underline; gạch dưới;
+    text-decoration: overline;gạch trên đầu;
+    text-decoration: line-through;gạch ngang;*/
+text-decoration: none;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-weight: normal;
+    margin-right: 20px ;
+}
+
+.header .navbar a:hover {
+    color: #ff0000;
+}
+
+.carousel{
+    height: 800px;
+    background-image: url(../Image/BG.png);
+   background-repeat: no-repeat;
+   /* background-size: x y  */
+   background-size: 2000px 1000px;
+   /* background-position: x=doc y=ngang */
+   background-position: center center;
+}
+
+.activity{
+padding: 50px 0;
+}
+.activity .title{
+    text-align: center;
+}
+.activity .title h2{
+    color:#aeacab;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+/* FLoat:  */
+.activity .main .row .col{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    box-sizing:  border-box;
+    /* background-color: red; */
+    /* border: 1px solid red; kiểu đường viền thẳng */
+    /* border: 1px dashed;  kiểu đường viền gạch đích*/
+    /* border: 1px  dotted;  kiểu đường  viền...*/
+
+}
+.activity .main .item{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.activity .main .item .thumbnail {
+    position: relative;
+}
+
+.activity .main .item .thumbnail img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.activity .main .item .thumbnail i {
+    font-size: 25px;
+    color: #ff0000;
+    /* có 3 loại position: absolute:di chuyển theo thằng cha của nó ,relative:bắt đầu từ vị trí hiện tại mà di chuyển ,fixed; *
+    có 4 loại thuộc tính đi chung để chỉnh vị trí
+    top:0 là đẩy trái tim từ trên xuống
+    left:0 là từ trái đẩy sang phải
+    bottom:0 là từ dưới đẩy lên trên
+    /* right:0 là phải đẩy qua trái
+    chỉ được ưu tiên chỉnh 1 trong 2 cái nếu chỉnh top left thì không chỉnh được bottom vs right nếu chỉnh top thì không chỉnh bottom nếu chỉnh left thì không chỉnh được right / */
+position: absolute;
+top: 10px;
+right: 15px;
+background-color: #ffffff;
+/* padding-top: 10px;
+box-sizing: border-box; */
+line-height: 45px;   /*chỉ sử dụng khi chỉ có 1 dòng text */
+width: 45px;
+height: 45px;
+border-radius: 15px;
+opacity: 0.5;
+}
+
+.activity .main .item h1{
+    font-size: 25px;
+
+}
+.activity .main .item p{
+    color: #aeacab;
+    line-height: 30px;
+}
+.activity .main .item a{
+    background-color: #e8e8e8;
+    color: #aeacab;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 14px 40px;
+    display: inline-block;
+    border-radius: 23px;
+}
+
+.ViewAll{
+    text-align: center;
+    margin-top: 50px;
+}
+.ViewAll button{
+    padding: 10px 70px;
+    border-radius: 40px;
+    border: 1px solid #ec947f;
+    color: #ec947f;
+    cursor: pointer;
+    background-color: transparent
+}
+
+/* Contact */
+.contact{
+    background-color: #f8e1db;
+    margin-top: 100px;
+    color: #aeacab;
+}
+
+.contact .contact__follow i {
+color: #ec947f;
+font-size: 25px;
+}
+
+.contact__left,
+.contact__right {
+    float: left;
+    width: 50%;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+.contact__left {
+    background-image: url(../Image/mask.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact__download,
+.contact__follow {
+  float: left;
+  width: 50%;
+  color: #aeacab;
+}
+.contact .contact__download img{
+    float: left;
+    width: 50%;
+}
+
+.footer{
+    background-color: #f8e1db;
+    border-radius: 75px;
+    margin-top: 100px;
+}
+
+.footer {
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.footer .footer1 .footerlastpage{
+    float: left;  
+    width: 25%;
+    padding: 10px 50px;
+    box-sizing:  border-box;
+}
+
+.All{
+    text-align: center;
+}
+
+
